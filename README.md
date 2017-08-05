@@ -1,12 +1,11 @@
-# three-stereo-effect
+# three-stereoeffect
 A fork of the stereo effect for npm package
 
 ThreeJS StereoEffect as an npm module. 
 
 ```js
-var THREE = require('three')
 
-var StereoEffect = require('three-stereo-effect')(THREE)
+var StereoEffect = require('three-stereo-effect')
 
 function start(gl, width, height) {
     renderer = new THREE.WebGLRenderer({
@@ -35,7 +34,7 @@ function render(gl, width, height) {
 ```
 
 
-#### `StereoEffect = require('three-stereo-effect')(THREE)`
+#### `StereoEffect = require('three-stereo-effect')`
 
 This module exports a function which accepts an instance of THREE, and returns an StereoEffect class. This allows you to use the module with CommonJS, globals, etc.
 

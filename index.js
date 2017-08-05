@@ -1,15 +1,15 @@
 /**
  * @author alteredq / http://alteredqualia.com/
- * @authod mrdoob / http://mrdoob.com/
- * @authod arodic / http://aleksandarrodic.com/
- * @authod fonserbc / http://fonserbc.github.io/
- * @authod samsy / http://samsy.ninja/
+ * @author mrdoob / http://mrdoob.com/
+ * @author arodic / http://aleksandarrodic.com/
+ * @author fonserbc / http://fonserbc.github.io/
+ * @author samsy / http://samsy.ninja/
+ * @author ivee-tech / http://editor.ivee.tech
  *
  * Off-axis stereoscopic effect based on http://paulbourke.net/stereographics/stereorender/
  */
 
-
-module.exports = function(THREE, renderer) {
+var THREE = require('three');
 
 	function StereoEffect(renderer){
 
@@ -151,8 +151,7 @@ module.exports = function(THREE, renderer) {
 	}
 
 
-		StereoEffect.prototype = Object.create( THREE.EventDispatcher.prototype );
-		StereoEffect.prototype.constructor = StereoEffect;
-		return StereoEffect;
-};
+StereoEffect.prototype = Object.create( THREE.EventDispatcher.prototype );
+StereoEffect.prototype.constructor = StereoEffect;
 
+module.exports = StereoEffect;

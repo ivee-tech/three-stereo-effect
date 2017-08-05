@@ -1,6 +1,6 @@
 {
-  "name": "three-stereo-effect",
-  "version": "1.0.14",
+  "name": "three-stereoeffect",
+  "version": "1.0.15",
   "description": "stereo effect for three js ( VR ) ",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Samsy/three-stereo-effect.git"
+    "url": "git+https://github.com/ivee-tech/three-stereo-effect.git"
   },
   "keywords": [
     "vr",
@@ -19,7 +19,7 @@
   "author": "samsy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Samsy/three-stereo-effect/issues"
+    "url": "https://github.com/ivee-tech/three-stereo-effect/issues"
   },
-  "homepage": "https://github.com/Samsy/three-stereo-effect#readme"
+  "homepage": "https://github.com/ivee-tech/three-stereo-effect#readme"
 }
